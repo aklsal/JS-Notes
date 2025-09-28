@@ -19,3 +19,4 @@ Encapsulation = “Hide the data inside a capsule and control access to it.”
 Abstraction = “Hide the complex implementation and show only the necessary functionality.”
 Method overriding: Both Dog and Cat override the speak method from Animal.
 Polymorphism: The makeAnimalSpeak function treats Dog and Cat instances as objects of type Animal, demonstrating that the same method speak() behaves differently based on the object.
+ polymorphism is advantageous because it enables programmers to create objects with identical functionality, i.e., functions with identical names that operate identically. In some other areas of the OOP framework, you can, however, change some portions of the shared code or even the entire
