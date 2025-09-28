@@ -14,3 +14,8 @@ unlike the var keyword, which declares a variable globally, or locally to an ent
 ++ Since every function call gets its own FEC, there can be more than one FEC in the run-time of a script ++ 
 
 **Clouser ???
+
+Encapsulation = “Hide the data inside a capsule and control access to it.”
+Abstraction = “Hide the complex implementation and show only the necessary functionality.”
+Method overriding: Both Dog and Cat override the speak method from Animal.
+Polymorphism: The makeAnimalSpeak function treats Dog and Cat instances as objects of type Animal, demonstrating that the same method speak() behaves differently based on the object.
