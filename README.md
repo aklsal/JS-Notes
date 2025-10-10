@@ -144,9 +144,6 @@ https://www.youtube.com/watch?v=on9p11gv1k4&t=163s
 https://www.youtube.com/watch?v=8LWQNnVAMh4
 https://www.youtube.com/watch?v=RQ40ZilvCOg
 https://www.youtube.com/watch?v=XF1_MlZ5l6M
-*********************************
-https://github.com/frankstepanski
-*********************************
 DOM Research Details
 List and explain the JavaScript methods that enable us to select elements from the DOM.
 What is the document object? What are some other methods available on the document object that don't select elements from the DOM? Why is the virtual DOM faster?
