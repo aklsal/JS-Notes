@@ -154,8 +154,25 @@ Investigate the concept of event listeners in JavaScript and how they can be use
 style.display → changes style directly in JS (quick fix).
 classList → tells the element to use or stop using a CSS class (cleaner, reusable).
 
+why it's called node element why it's not only element is there any diffrence between them in short please?
+Yes — there is a small difference, and here’s the short version:
+Element → specifically an HTML tag like <div>, <li>, <p>.
+Node → a more general term in the DOM that can be any type of object in the document, including:
+Elements (<div>, <li>)
+Text inside elements ("Hello")
+Comments (<!-- comment -->)
+The document itself
+✅ So: all elements are nodes, but not all nodes are elements.
+In your example:
+const todoItem = document.createElement('li');
+todoItem is an element node, because it’s an actual <li> tag.
 
-
+<p>Hello</p>
+This has 2 nodes:
+<p> → element node
+Hello → text node
+✅ <p> is both an element and a node
+❌ Hello is a node, but not an element
 
 
 
