@@ -151,6 +151,8 @@ What are the differences between the innerHTML and textContent properties in the
 What is the purpose of the createElement, appendChild, and removeChild methods in the DOM?
 Investigate the concept of event listeners in JavaScript and how they can be used to respond to user interactions. Research how to attach event listeners to HTML elements and handle events such as clicks, mouse movements, or keyboard input. 
 
+style.display → changes style directly in JS (quick fix).
+classList → tells the element to use or stop using a CSS class (cleaner, reusable).
 
 
 
