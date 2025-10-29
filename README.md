@@ -173,12 +173,24 @@ This has 2 nodes:
 Hello → text node
 ✅ <p> is both an element and a node
 ❌ Hello is a node, but not an element
-
-
-
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Week 11: JQuery
+Coding Steps:
+Using any of the tools you've worked with so far, create a game of Tic-Tac-Toe.
+Create a Tic-Tac-Toe game grid using your HTML element of choice.
+When a cell in the grid is clicked, an X or O should appear in that spot depending on whose turn it is.
+A heading should say whether it is X's or O's turn and change with each move made.
+A button should be available to clear the grid and restart the game.
+When a player has won, or the board is full and the game results in a dr
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Week 12: API's and Fetching
+Concepts: Front-End vs Back-End: Build an understanding of the roles of a Front-End and Back-End, and how they work together
+Fetching: Getting Data From an API: Get data from a free public API and show it in an app
+Tools: Network Tab: Use the Network Tab of the Developer Tools to debug fetch requests and responses
+Tools: json-server: Set up json-server to use as a practice backend
+Fetching: Creating, Updating & Deleting: Make POST, DELETE, and PUT requests to an API
+Fetching: Data Syncing: Keep data synced between Front-End state and a Back-End database
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
