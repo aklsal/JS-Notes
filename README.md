@@ -190,7 +190,41 @@ Tools: Network Tab: Use the Network Tab of the Developer Tools to debug fetch re
 Tools: json-server: Set up json-server to use as a practice backend
 Fetching: Creating, Updating & Deleting: Make POST, DELETE, and PUT requests to an API
 Fetching: Data Syncing: Keep data synced between Front-End state and a Back-End database
+ https://www.w3schools.com/whatis/whatis_json.asp
+ https://www.w3schools.com/js/js_json_parse.asp
+ https://www.w3schools.com/js/js_json_stringify.asp
+ https://www.w3schools.com/nodejs/nodejs_rest_api.asp
+ https://restfulapi.net/http-status-codes/
+ https://www.geeksforgeeks.org/javascript/javascript-fetch-method/
+ https://dmitripavlutin.com/javascript-fetch-async-await/
+ https://jsonplaceholder.typicode.com/
+ https://www.npmjs.com/package/json-server
 /////////////////////////////////////////////////////////////////////////////////////////////////////
+Week13_pre_React
+https://vite.dev/guide/
+https://www.w3schools.com/react/react_es6_spread.asp
+https://www.w3schools.com/js/js_destructuring.asp
+https://www.w3schools.com/typescript/typescript_intro.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,17 +235,6 @@ Fetching: Data Syncing: Keep data synced between Front-End state and a Back-End 
 let allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used, 
 unlike the var keyword, which declares a variable globally, or locally to an entire function regardless of block scope.
 ************************************
-Week12_REST API:
-https://www.npmjs.com/package/json-server
-https://www.w3schools.com/whatis/whatis_json.asp
-https://www.w3schools.com/js/js_json_parse.asp
-https://www.w3schools.com/js/js_json_stringify.asp
-https://www.w3schools.com/nodejs/nodejs_rest_api.asp
-https://restfulapi.net/http-status-codes/
-https://www.geeksforgeeks.org/javascript/javascript-fetch-method/
-https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
-https://dmitripavlutin.com/javascript-fetch-async-await/
-https://jsonplaceholder.typicode.com/
 
 
 
