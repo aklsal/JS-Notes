@@ -205,6 +205,81 @@ https://vite.dev/guide/
 https://www.w3schools.com/react/react_es6_spread.asp
 https://www.w3schools.com/js/js_destructuring.asp
 https://www.w3schools.com/typescript/typescript_intro.php
+//////////////////////////////////////////////////////////////////////
+Week14_ Intro to React
+ https://www.youtube.com/watch?v=8pDqJVdNa44
+https://www.geeksforgeeks.org/javascript/what-is-export-default-in-javascript/
+https://www.geeksforgeeks.org/reactjs/reactjs-introduction/
+https://www.geeksforgeeks.org/reactjs/what-are-single-page-apps/
+https://react.dev/learn
+https://www.w3schools.com/react/react_jsx.asp
+https://www.geeksforgeeks.org/reactjs/reactjs-components/
+https://www.geeksforgeeks.org/reactjs/reactjs-props/
+https://www.geeksforgeeks.org/reactjs/how-to-setup-reactjs-with-vite/
+https://www.youtube.com/watch?v=0sSYmRImgRY
+---------------------------
+https://stackblitz.com/edit/stackblitz-starters-jpd1tz?file=src%2Findex.js
+https://stackblitz.com/edit/stackblitz-starters-hulcvd?file=src%2FApp.js
+---------------------------
+
+ 1. Named Exports
+Named exports are used when you want to export multiple values from a module.
+Each exported value must be imported by its exact name, which enforces consistency and clarity in your code.
+// Exporting individual features
+
+export let name1 = …,    name2 = …, …, nameN; // also var, const
+
+// Export list
+
+export { name1, name2, …, nameN };
+
+//Exporting everything at once
+
+export { object, number, x, y, boolean, string }
+
+// Renaming exports
+
+export { variable1 as name1, variable2 as name2, …, nameN };
+
+// export features declared earlier
+
+export { myFunction, myVariable }; 
+
+//file math.js
+function square(x) {
+    return x * x;
+}
+function cube(x) {
+    return x * x * x;
+}
+export { square, cube };
+
+
+//while importing square function in test.js
+import { square, cube } from './math;
+console.log(square(8)) //64
+console.log(cube(8)) //512
+
+2.Default Exports
+Default exports are used when you want to export a single primary object, function, or variable from a module. This type of export allows you to import the value using any name, providing flexibility and simplifying the import process for the module's main content.
+
+Example: In this example, we are exporting the variable by using "export default" keywords.
+
+
+// file module.js
+let x = 4;
+export default x;
+
+// test.js
+// while importing x in test.js
+import y from './module';
+// note that y is used import x instead of 
+// import x, because x was default export
+console.log(y);
+// output will be 4
+//////////////////////////////////////////////////////////////////////
+
+
 
 
 
