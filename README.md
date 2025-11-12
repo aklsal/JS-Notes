@@ -288,6 +288,53 @@ import y from './module';
 console.log(y);
 // output will be 4
 
+//Files inside react app
+1. App.jsx
+This is your main React component — where you build your actual app’s content.
+💡 Think of it like the “heart” of your app.
+Here you:
+Write your HTML-like JSX code (what the user sees).
+Add logic (like buttons, text, counters, etc.).
+Use state and other React features.
+🧠 Example: You’ll add new components, import others, or build your pages here.
+
+🎨 2. App.css
+This file controls the style of App.jsx.
+💡 Think of it as the “clothes” your app wears.
+You use it to change colors, layout, font, button styles, etc.
+🧠 Example: If your button color looks wrong — you fix it here.
+
+🎨 3. index.css
+This is the global style file — it affects the whole website, not just one component.
+💡 Think of it as your app’s “default background and font settings.”
+You can set things like:
+Page background color
+Default font
+Margin, padding resets
+
+🌐 4. index.html
+This is the real webpage (the only HTML file).
+React puts your entire app inside one <div> here:
+<div id="root"></div>
+That’s the spot React “mounts” your app into using JavaScript.
+💡 You rarely edit this file — except to change the page title or add metadata.
+
+⚙️ 5. main.jsx
+This is your entry point / setup file.
+It tells React:
+“Hey, take the <App /> component and show it inside the <div id='root'> in index.html.”
+
+💡 Think of it like a “switch” that turns your app on.
+You’ll only edit this if you add global tools (like React Router or Context).
+
+🔁 Summary Table
+File	           Role	You              usually edit it?
+App.jsx	     Your main app content     	✅ Yes
+App.css	     Styles for App.jsx        	✅ Yes
+index.css	   Global styles	             ✅ Sometimes
+index.html	  Root HTML file	            ⚠️ Rarely
+main.jsx	    Starts the app	            ⚠️ Rarely
+
 
 //////////////////////////////////////////////////////////////////////
 
