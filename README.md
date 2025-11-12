@@ -210,6 +210,8 @@ Week14_ Intro to React
  https://www.youtube.com/watch?v=8pDqJVdNa44
 https://www.geeksforgeeks.org/javascript/what-is-export-default-in-javascript/
 https://www.geeksforgeeks.org/reactjs/reactjs-introduction/
+ https://www.geeksforgeeks.org/reactjs/reactjs-virtual-dom/
+ https://www.geeksforgeeks.org/reactjs/what-is-diffing-algorithm/
 https://www.geeksforgeeks.org/reactjs/what-are-single-page-apps/
 https://react.dev/learn
 https://www.w3schools.com/react/react_jsx.asp
@@ -218,9 +220,17 @@ https://www.geeksforgeeks.org/reactjs/reactjs-props/
 https://www.geeksforgeeks.org/reactjs/how-to-setup-reactjs-with-vite/
 https://www.youtube.com/watch?v=0sSYmRImgRY
 ---------------------------
-https://stackblitz.com/edit/stackblitz-starters-jpd1tz?file=src%2Findex.js
+https://stackblitz.com/edit/stackblitz-starters-jpd1tz?file=src%2Findex.js 
 https://stackblitz.com/edit/stackblitz-starters-hulcvd?file=src%2FApp.js
 ---------------------------
+Real DOM → Created by the browser (built into HTML).
+Virtual DOM → Created by React team (Facebook).
+Shadow DOM → Created by browser vendors (W3C Web Components standard).
+
+ React uses a Virtual DOM to optimize UI rendering. Instead of updating the entire real DOM directly, React:
+ =Creates a lightweight copy of the DOM (Virtual DOM).
+ =Compares it with the previous version to detect changes (diffing).
+ =Updates only the changed parts in the actual DOM (reconciliation), improving performance.
 
  1. Named Exports
 Named exports are used when you want to export multiple values from a module.
@@ -277,6 +287,8 @@ import y from './module';
 // import x, because x was default export
 console.log(y);
 // output will be 4
+
+
 //////////////////////////////////////////////////////////////////////
 
 
