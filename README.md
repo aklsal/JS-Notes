@@ -369,6 +369,13 @@ main.jsx	    Starts the app	            ⚠️ Rarely
 let allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used, 
 unlike the var keyword, which declares a variable globally, or locally to an entire function regardless of block scope.
 ************************************
+If you use var outside of a function, it belongs to the global scope.
+
+If you use var inside of a function, it belongs to that function.
+
+If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block.
+
+A callback function is a function you pass to another function so it can be executed later.
 
 
 
